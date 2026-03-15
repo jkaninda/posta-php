@@ -1,0 +1,25 @@
+{
+    "name": "jkaninda/posta-php",
+    "description": "PHP client for the Posta email API",
+    "type": "library",
+    "homepage": "https://github.com/jkaninda/posta-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonas Kaninda",
+            "email": "me@jkaninda.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Posta\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
